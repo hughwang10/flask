@@ -1,0 +1,6 @@
+web:
+  image: hugh/myflask
+  #volumes: 
+  ports:
+    - "5000:5000"
+  #command: 
