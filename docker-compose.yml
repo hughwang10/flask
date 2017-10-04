@@ -1,6 +1,7 @@
 web:
   image: hugh/myflask
-  #volumes: 
+  volumes: 
+    - /home/hugh/myshare/projects/vf_Ireland_2017/swgw_afg17ga:/data
   ports:
     - "5000:5000"
   #command: 
